@@ -24,7 +24,7 @@ print("\n")
 print("\u0332".join("Question 2 ")) #Underlines string
 
 var_1, var_2 = 4, "Math Rules"
-print(f"Var 1: {var_1} \nVar 2: {var_2}\n")
+print("Var 1:", var_1, "\nVar 2:", var_2)
 
 print("\n") 
 
@@ -92,8 +92,48 @@ r = 5
 #circumfrence = 2*pi*r
 #area = pi*r*squared
 print(f"Circumfrence of circle with radius {r} : {2*3.14*r}")
-print(f"Area of circle with radius {r} : {3.14*r*r}\n")
+print(f"Area of circle with radius {r} : {3.14*r*r}")
 
 print("\n") 
 
 #.......................................................
+
+print("\n_______________________________________________")
+print ("\033[1m" + "Day 5\n"+ "\033[0m") #Bolds string
+
+#.......................................................
+
+print("\u0332".join("Question 1 ")) #Underlines string
+
+x = 15
+if(15%5 == 0):
+    print(x,"is divisible by 5")
+if(15%5 != 0):
+    print(x, "is not divisible by 5")
+
+
+print("\n") 
+
+#.......................................................
+
+print("\u0332".join("Question 2 ")) #Underlines string
+
+a = 5 #random numbers between 1-100
+b = 90
+
+print(f"Values of a and b: \na:{a}\nb:{b}")
+if a > 50 and b > 50:
+    print("Both a and b are larger than 50")
+elif a>50 and b<50:
+    print("Only a is larger than 50. B is less than 50")
+elif a<50 and b>50:
+    print("Only b is larger than 50. A is less than 50")
+elif a<50 and b<50:
+    print("a and b are both smaller than 50")
+
+
+print("\n") 
+
+#.......................................................
+
+
