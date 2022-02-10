@@ -39,7 +39,7 @@ print(f"Standard form: {A}x", end = "") #end = makes sure that a newline isnt ad
 if(B<0): #for B
     if(B == -1):
       print("-y", end = "") #instead of "- 1y"
-     else:
+    else:
       print(B, end = "") #"-By"
 else:
     if(B == 1):
